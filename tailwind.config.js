@@ -2,7 +2,8 @@
 module.exports = {
   content: ['./components/**/*.tsx', './pages/**/*.tsx'],
   images: {
-    unoptimized: true
+    loader: 'custom',
+    path: '/',
   },
   theme: {
     extend: {
