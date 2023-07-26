@@ -2,8 +2,8 @@
 // https://tailwindcss.com/docs/using-with-preprocessors
 module.exports = {
   images: {
-    loader: 'imgix',
-    path: '/',
+    loader: 'akamai',
+    path: '',
   },
   plugins: {
     tailwindcss: {},

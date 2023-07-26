@@ -2,8 +2,8 @@
 module.exports = {
   content: ['./components/**/*.tsx', './pages/**/*.tsx'],
   images: {
-    loader: 'custom',
-    path: '/',
+    loader: 'akamai',
+    path: '',
   },
   theme: {
     extend: {
