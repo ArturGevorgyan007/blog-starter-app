@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./components/**/*.tsx', './pages/**/*.tsx'],
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
   theme: {
     extend: {
       colors: {
